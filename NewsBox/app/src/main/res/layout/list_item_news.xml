@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--suppress AndroidLintContentDescription -->
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@color/photo_placeholder"
+            android:transitionName="@string/photo_transition"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/a11y_thumbnail"/>
+
+        <TextView
+            android:id="@+id/news_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_side_margin"
+            android:paddingTop="@dimen/list_side_margin"
+            android:paddingEnd="@dimen/list_side_margin"
+            android:paddingBottom="@dimen/list_side_margin"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:contentDescription="@string/a11y_headline"/>
+
+        <TextView
+            android:id="@+id/news_date"
+            android:gravity="end"
+            android:paddingRight="@dimen/list_side_margin"
+            android:paddingEnd="@dimen/list_side_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/a11y_date"/>
+
+        <TextView
+            android:id="@+id/news_trail"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_side_margin"
+            android:paddingEnd="@dimen/list_side_margin"
+            android:paddingBottom="@dimen/list_side_margin"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:contentDescription="@string/a11y_trail_text"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="ga_trackingId">UA-84935037-2</string>
+    <string name="ga_autoActivityTracking">true</string>
+    <screenName name="com.awesomekris.android.newsbox.NewsList">News List</screenName>
+    <!--<screenName name="com.awesomekris.android.newsbox.NewsListFragment">News List Fragment</screenName>-->
+    <screenName name="com.awesomekris.android.newsbox.NewsDetailActivity">News Detail</screenName>
+    <!--<screenName name="com.awesomekris.android.newsbox.NewsDetailActivityFragment">News Detail Fragment</screenName>-->
+</resources>

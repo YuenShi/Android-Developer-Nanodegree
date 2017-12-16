@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">NewsBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">newsbox.example.com</string>
+    <string name="content_authority">com.awesomekris.android.newsbox</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+
+    <!-- Share Element Transition -->
+    <string name="photo_transition">photo_transition</string>
+
+    <!-- Empty View Hint -->
+    <string name="empty_view_hint">Sorry, there is no data available right now. Please check your network or try again later.</string>
+    <string name="empty_list_hint">No news available.</string>
+    <!-- Strings related to Widgets -->
+    <string name="title_widget_today">News Today</string>
+
+    <!-- AdMob Test Banner -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_headline">news headline</string>
+    <string name="a11y_date">news date</string>
+    <string name="a11y_thumbnail">news thumbnail</string>
+    <string name="a11y_trail_text">news trail text</string>
+    <string name="a11y_body_text_summary">news body text summary</string>
+    <string name="a11y_share_button">Click this button to share news with friends.</string>
+    <string name="a11y_admob">Click this to view advertisement.</string>
+
+    <!-- MultiSelectListPreference -->
+    <string name="pref_tab_title_choice">Customize Tab Title</string>
+
+    <!-- Default Tab Title -->
+    <string name="artanddesign">artanddesign</string>
+    <string name="australiaNews">australia-news</string>
+    <string name="betterBusiness">better-business</string>
+    <string name="books">books</string>
+    <string name="business">business</string>
+    <string name="cardiff">cardiff</string>
+    <string name="childrensBooksSite">childrens-books-site</string>
+    <string name="cities">cities</string>
+    <string name="commentisfree">commentisfree</string>
+    <string name="community">community</string>
+    <string name="crosswords">crosswords</string>
+    <string name="culture">culture</string>
+    <string name="cultureNetwork">culture-network</string>
+    <string name="cultureProfessionalsNetwork">culture-professionals-network</string>
+    <string name="edinburgh">edinburgh</string>
+    <string name="education">education</string>
+    <string name="enterpriseNetwork">enterprise-network</string>
+    <string name="environment">environment</string>
+    <string name="extra">extra</string>
+    <string name="fashion">fashion</string>
+    <string name="film">film</string>
+    <string name="football">football</string>
+    <string name="globalDevelopment">global-development</string>
+    <string name="globalDevelopmentProfessionalsNetwork">global-development-professionals-network</string>
+    <string name="governmentComputingNetwork">government-computing-network</string>
+    <string name="guardianProfessional">guardian-professional</string>
+    <string name="healthcareNetwork">healthcare-network</string>
+    <string name="help">help</string>
+    <string name="higherEducationNetwork">higher-education-network</string>
+    <string name="housingNetwork">housing-network</string>
+    <string name="info">info</string>
+    <string name="jobsadvice">jobsadvice</string>
+    <string name="katine">katine</string>
+    <string name="law">law</string>
+    <string name="leeds">leeds</string>
+    <string name="lifeandstyle">lifeandstyle</string>
+    <string name="local">local</string>
+    <string name="localGovernmentNetwork">local-government-network</string>
+    <string name="media">media</string>
+    <string name="mediaNetwork">media-network</string>
+    <string name="membership">membership</string>
+    <string name="money">money</string>
+    <string name="music">music</string>
+    <string name="news">news</string>
+    <string name="politics">politics</string>
+    <string name="publicLeadersNetwork">public-leaders-network</string>
+    <string name="science">science</string>
+    <string name="search">search</string>
+    <string name="smallBusinessNetwork">small-business-network</string>
+    <string name="socialCareNetwork">social-care-network</string>
+    <string name="socialEnterpriseNetwork">social-enterprise-network</string>
+    <string name="society">society</string>
+    <string name="societyProfessionals">society-professionals</string>
+    <string name="sport">sport</string>
+    <string name="stage">stage</string>
+    <string name="teacherNetwork">teacher-network</string>
+    <string name="technology">technology</string>
+    <string name="theguardian">theguardian</string>
+    <string name="theobserver">theobserver</string>
+    <string name="travel">travel</string>
+    <string name="travelOffers">travel/offers</string>
+    <string name="tvAndRadio">tv-and-radio</string>
+    <string name="ukNews">uk-news</string>
+    <string name="usNews">us-news</string>
+    <string name="voluntarySectorNetwork">voluntary-sector-network</string>
+    <string name="weather">weather</string>
+    <string name="womenInLeadership">women-in-leadership</string>
+    <string name="world">world</string>
+
+
+
+</resources>

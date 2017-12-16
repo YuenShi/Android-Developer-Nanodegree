@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_side_margin">8dp</dimen>
+    <dimen name="detail_photo_height">240dp</dimen>
+    <dimen name="headline_margin">16dp</dimen>
+    <dimen name="body_text_summary_margin">12dp</dimen>
+
+    <!-- Today Widget -->
+    <dimen name="widget_default_height">180dp</dimen>
+    <dimen name="widget_today_default_width">250dp</dimen>
+    <dimen name="widget_today_default_height">180dp</dimen>
+    <dimen name="widget_detail_min_resize_width">220dp</dimen>
+    <dimen name="widget_detail_min_resize_height">@dimen/widget_default_height</dimen>
+
+    <integer name="list_column_count">1</integer>
+</resources>
