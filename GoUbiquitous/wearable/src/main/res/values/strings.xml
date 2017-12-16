@@ -1,0 +1,5 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Wearable</string>
+    <string name="watch_face_name">Sunshine Watchface</string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+</resources>
